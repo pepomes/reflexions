@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+It creates the necessary git files to track the project
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area allows to select which files are going to be tracked.
+It does not mean the other files are going to disappear
+But it gives more flexibility in terms of choosing which files to track that have changed.
