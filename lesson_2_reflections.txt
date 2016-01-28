@@ -5,3 +5,24 @@ How is the staging area different from the working directory and the repository?
 The staging area allows to select which files are going to be tracked.
 It does not mean the other files are going to disappear
 But it gives more flexibility in terms of choosing which files to track that have changed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can select which files should be part of the commit and as such make sure I control the commit
+The files from the previous commit are by default in the staging area.
+So if I made changes to two files I can commit them separately.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When I want to introduce an experimental feature to the code
+I can revert back to the original code any time
+
+How do the diagrams help you visualize the branch structure?
+It helps figure out orphans, dependencies, which features are only available in one branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Because a merge points to the previous two branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros: It selects code that is definitely part of only one side automatically
+pros: Easy and fast
+cons: does not resolve conflicts auto (pro actually!)
+cons: could create additional code
